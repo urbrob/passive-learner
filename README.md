@@ -7,3 +7,14 @@
 4. Push it to origin
 5. Create PR
 6. Ask for review
+
+## Technologies
+- API 
+  - Python
+  - Django
+
+- APP
+  - Kotlin
+
+- DevOps
+  - Docker
