@@ -1,4 +1,4 @@
-package com.example.klejton.passive_learner
+package passive_learner.urbrob.github.com.app
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
-        assertEquals("com.example.klejton.passive_learner", appContext.packageName)
+        assertEquals("passive_learner.urbrob.github.com.app", appContext.packageName)
     }
 }
