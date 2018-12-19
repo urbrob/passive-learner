@@ -1,4 +1,4 @@
-package com.example.klejton.passive_learner
+package passive_learner.urbrob.github.com.app
 
 import org.junit.Test
 
