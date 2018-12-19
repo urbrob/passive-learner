@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">APP</string>
+    <string name="app_name">Passive Learner</string>
+    <string name="team_dev">by SKN Return devs</string>
 </resources>
