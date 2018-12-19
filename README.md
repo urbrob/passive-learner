@@ -18,3 +18,7 @@
 
 - DevOps
   - Docker
+  
+## Screenshots
+- Splash screen 
+![splash_screen](https://i.imgur.com/OjfVFaA.png)
