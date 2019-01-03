@@ -4,7 +4,7 @@ from django.contrib.auth.models import User
 
 class UserInfo(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
-    date_of_creation = models.DateField(auto_now_add=True)
+    created_at = models.DateField(auto_now_add=True)
     verified = models.BooleanField(default=False)
 
 
@@ -18,7 +18,7 @@ class Question(models.Model):
 class Answer(models.Model):
     question = models.ForeignKey(Question, on_delete=models.CASCADE)
     content = models.CharField(max_length=200)
-    true = models.BooleanField(default=False)
+    correct = models.BooleanField(default=False)
 
 
 class QuestionSet(models.Model):
@@ -57,7 +57,7 @@ class Membership(models.Model):
     role = models.CharField(max_length=10, choices=ROLES, default=MEMBER)
 
 
-class Categories(models.Model):
+class Category(models.Model):
     name = models.CharField(max_length=30)
     description = models.TextField(300)
     question_sets = models.ManyToManyField(QuestionSet)
