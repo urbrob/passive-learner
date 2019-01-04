@@ -69,6 +69,7 @@ class AnswerAdmin(admin.ModelAdmin):
     list_display = ('content', 'true')
     list_filter = ('true', )
 
+
 admin.site.register(Answer, AnswerAdmin)
 
 
@@ -91,7 +92,7 @@ class UserInfoAdmin(models.ModelAdmin):
     search_fields = ('user', 'date_of_creation')
 
 
-admin.site.register(UserInfo,UserInfoAdmin)
+admin.site.register(UserInfo, UserInfoAdmin)
 
 
 admin.site.register(Copy)
