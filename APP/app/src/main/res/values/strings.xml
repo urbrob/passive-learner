@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Passive Learner</string>
     <string name="team_dev">by SKN Return devs</string>
+    <string name="temp_logo">Place for logo</string>
+    <string name="temp_start">Choose set and start</string>
+    <string name="temp_settings">Settings</string>
+    <string name="temp_manage_sets">Manage your questions sets</string>
+    <string name="temp_upload">Upload new questions sets</string>
 </resources>
